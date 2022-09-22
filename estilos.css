@@ -50,7 +50,6 @@ header .texto-header{
     flex-direction: column;
     text-align: center;
 }
-
 .texto-header h1{
     font-size: 70px;
     color: #3e0646;
@@ -59,7 +58,6 @@ header .texto-header{
 .contenido-textos img{
     float:right;
     margin-right: 160px;
-  
     
 }
 main .sobre-ella{
@@ -78,14 +76,11 @@ main .sobre-ella{
 .contenido-textos h3{
     margin-bottom: 15px;
 }
-
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
-
 }
-
 /*galeria*/
 .contenedorNosotros{
     background: #f2f2f2;
@@ -106,7 +101,7 @@ main .sobre-ella{
 }
 .Imagen-nosotros > img{
     width: 100% ;
-    height: 120%;
+    height: 125%;
     object-fit: cover;
     display: block;
 }
@@ -133,7 +128,6 @@ main .sobre-ella{
 .Imagen-nosotros:hover .hover-galeria{
     transform: scale(1);
 }
-
 /*cile*/
 .cards{
     display: flex;
@@ -179,20 +173,16 @@ footer{
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
-
 }
-
 .contenido-foo{
     text-align: center;
 }
-
 .contenido-foo h4 {
     color: rgb(255, 0, 43);
     border-bottom: 3px solid #97110d;
     font-size: 30px;
     padding-bottom: 5px;
     margin-bottom: 10px;
-
 }
 .contenido-foo p {
     color: #fff;
@@ -201,6 +191,30 @@ footer{
     header{
         background-position: center;
     }
+    .titulo1 h2{
+        margin-top: 50px;
+    }
+    .contenido-textos img{
+        float:right;
+        margin-right: 290px;
+    }
+    .Imagen-nosotros .img2{
+        height: 250px;
+    }
+    .Imagen-nosotros .img8{
+        width: 100% ;
+        height: 200%;
+    }
+   .contenedor-sobre-ella .imagen-about-us{
+        margin-top: 20px;
+        width: 360px;
+        height: 650px;
+   }
+   .contenido-textos h6{
+    margin-left: -175px;
+    margin-right: 170px;
+    text-align: center;
+   }
     .imagen-about-us{
         width: 30%; /*tamaño de la imagen principial*/
     }
@@ -218,29 +232,44 @@ footer{
     .cards .card:first-child{
         margin-bottom: 30px;
     }
+    .contenido-foo p{
+        margin: 17px;
+    }
 }
 @media screen and (max-width:500px){
     .texto-header h1{
-        font-size: 35px;
+        font-size: 40px;
     }
+    .contenedor-sobre-ella {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+   .contenido-textos img{
+    float:right;
+    margin-right: 130px;
+    }
+   .contenido-textos h6{
+    margin-left: 10px;
+    margin-right: 1px;
+    text-align: center;
+   }
     .texto-header h2{
         font-size: 15px;
     }
     /*about us*/
     .imagen-about-us{
-        margin-bottom: 60px;
-        width: 50%;
+        margin-bottom: 40px;
     }
     .sobre-ella .contenido-textos{
         width: 95%;
-
     }
     /*galeria*/
     .Imagen-nosotros{
         width: 95%;
     }
     .cards .card{
-        width: 200px;
+        width: 700px;
         display: flex;
         flex-direction: column; 
         align-items: center;
@@ -248,5 +277,8 @@ footer{
     .cards .card img{
         width: 90px;
         height: 90px;
+    }
+    .contenido-foo p {
+        margin: 20px;
     }
 }
